@@ -10,12 +10,12 @@ Team members:
 * Zodumo Mbuthuma
 
 # Project description: 
-FilmNow is a film recommendation system that will allow you to enter a movie title of your choice and you will receive the movie info on the film you searched along with three recommendations based on it.
+FilmNow is a film recommendation system that allows you to enter a movie title of your choice and receive movie info on the film you searched along with three recommendations based on it.
 
 
 # Requirements:
 
-* Clone this GitHub repository into a folder on your device via terminal
+* Clone this GitHub repository into a folder on your device via terminal.
 * Import python-dotenv
 * Import SQLAlchemy
 * Import flask
@@ -23,7 +23,7 @@ FilmNow is a film recommendation system that will allow you to enter a movie tit
 * Import requests 
 * db.sqlite text file - If the db.sqlite (not the db.sqlite.py file) text file is empty, please delete that file and run the db.sqlite.py file. This will then produce the correct db.sqlite text file.
 * Register for an API key from The Movie Database (TMDB): https://www.themoviedb.org/documentation/api
-* Generate a Secret Key for the Flask login system by writing the following code at the top one of the Python files:
+* Generate a Secret Key for the Flask login system by writing the following code at the top of one of the Python files:
 ```python
 import os 
 SECRET_KEY = os.random(24)
