@@ -29,7 +29,7 @@ import os
 SECRET_KEY = os.random(24)
 print(SECRET_KEY)
 ```
-Please save the Secret Key and delete the above three lines after you have generated your Secret Key.
+Please save your Secret Key and delete the above three lines after you have generated your Secret Key.
 * Create .env file in CodeFirstGirls-Nanodegree-Project to add and hide your API_KEY and SECRET_KEY. 
 
 For example, you can write this on the .env file:
